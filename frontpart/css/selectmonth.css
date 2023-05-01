@@ -1,0 +1,345 @@
+*{
+margin : 0;
+padding : 0;
+font-family : Century Gothic;
+}
+
+header{
+
+background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../2.jpg);
+height : 90vh;
+background-size: cover;
+background-position: center;
+}
+
+ul{
+float: right;
+list-style-type: none;
+margin-top: 15px;
+
+}
+
+ul li{
+display: inline-block;
+}
+
+ul li a{
+text-decoration : none;
+color : #fff;
+padding : 5px 20px;
+border: 1px solid transparent;
+transition: 0.6s ease;
+}
+
+ul li a:hover{
+background-color:#fff;
+color: #000;
+}
+
+.logo img{
+float: left;
+width: 180px;
+height: auto
+}
+
+ul li.active a{
+background-color:#fff;
+color: #000;
+}
+
+.main{
+max-width: 1200px;
+margin: auto;
+}
+
+.title{
+position: absolute;
+top: 20%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+
+.title h1{
+color: #fff;
+font-size: 30px;
+}
+
+.title1{
+position: absolute;
+top: 16%;
+right: 83%;
+transform: translate(-50%,-50%);
+}
+
+.title1 h1{
+color: #fff;
+font-size: 14px;
+color: #7AD7F0;
+}
+
+.title2{
+position: absolute;
+top: 13%;
+left: 52%;
+transform: translate(-50%,-50%);
+color: #fff;
+font-size: 25px;
+}
+
+.button1{
+position: absolute;
+top: 28%;
+left: 20%;
+transform: translate(-50%,-50%);
+}
+
+.jan{
+border: 1px solid #fff;
+padding: 10px 40px;
+color: #fff;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+.jan:hover{
+background-color:#fff;
+color: #000;
+}
+
+.button2{
+position: absolute;
+top: 28%;
+left: 40%;
+transform: translate(-50%,-50%);
+}
+
+.feb{
+border: 1px solid #fff;
+padding: 10px 40px;
+color: #fff;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+.feb:hover{
+background-color:#fff;
+color: #000;
+}
+
+.button3{
+position: absolute;
+top: 28%;
+left: 60%;
+transform: translate(-50%,-50%);
+}
+
+.mar{
+border: 1px solid #fff;
+padding: 10px 40px;
+color: #fff;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+.mar:hover{
+background-color:#fff;
+color: #000;
+}
+
+.button4{
+position: absolute;
+top: 28%;
+left: 80%;
+transform: translate(-50%,-50%);
+}
+
+.apr{
+border: 1px solid #fff;
+padding: 10px 40px;
+color: #fff;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+.apr:hover{
+background-color:#fff;
+color: #000;
+}
+
+.button5{
+position: absolute;
+top: 48%;
+left: 20%;
+transform: translate(-50%,-50%);
+}
+
+.may{
+border: 1px solid #fff;
+padding: 10px 40px;
+color: #fff;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+.may:hover{
+background-color:#fff;
+color: #000;
+}
+
+.button6{
+position: absolute;
+top: 48%;
+left: 40%;
+transform: translate(-50%,-50%);
+}
+
+.jun{
+border: 1px solid #fff;
+padding: 10px 40px;
+color: #fff;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+.jun:hover{
+background-color:#fff;
+color: #000;
+}
+
+.button7{
+position: absolute;
+top: 48%;
+left: 60%;
+transform: translate(-50%,-50%);
+}
+
+.jul{
+border: 1px solid #fff;
+padding: 10px 40px;
+color: #fff;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+.jul:hover{
+background-color:#fff;
+color: #000;
+}
+
+.button8{
+position: absolute;
+top: 48%;
+left: 80%;
+transform: translate(-50%,-50%);
+}
+
+.aug{
+border: 1px solid #fff;
+padding: 10px 40px;
+color: #fff;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+.aug:hover{
+background-color:#fff;
+color: #000;
+}
+
+.button12{
+position: absolute;
+top: 68%;
+left: 80%;
+transform: translate(-50%,-50%);
+}
+
+.dec{
+border: 1px solid #fff;
+padding: 10px 40px;
+color: #fff;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+.dec:hover{
+background-color:#fff;
+color: #000;
+}
+
+.button9{
+position: absolute;
+top: 68%;
+left: 20%;
+transform: translate(-50%,-50%);
+}
+
+.sep{
+border: 1px solid #fff;
+padding: 10px 40px;
+color: #fff;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+.sep:hover{
+background-color:#fff;
+color: #000;
+}
+
+.button10{
+position: absolute;
+top: 68%;
+left: 40%;
+transform: translate(-50%,-50%);
+}
+
+.oct{
+border: 1px solid #fff;
+padding: 10px 40px;
+color: #fff;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+.oct:hover{
+background-color:#fff;
+color: #000;
+}
+
+.button11{
+position: absolute;
+top: 68%;
+left: 60%;
+transform: translate(-50%,-50%);
+}
+
+.nov{
+border: 1px solid #fff;
+padding: 10px 40px;
+color: #fff;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+.nov:hover{
+background-color:#fff;
+color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

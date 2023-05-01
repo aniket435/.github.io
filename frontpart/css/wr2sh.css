@@ -1,0 +1,211 @@
+*{
+margin : 0;
+padding : 0;
+font-family : Century Gothic;
+}
+
+header{
+
+background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../WR.jpg);
+height : 100vh;
+background-size: cover;
+background-position: center;
+}
+
+ul{
+float: right;
+list-style-type: none;
+margin-top: 15px;
+
+}
+
+ul li{
+display: inline-block;
+}
+
+ul li a{
+text-decoration : none;
+color : #fff;
+padding : 5px 20px;
+border: 1px solid transparent;
+transition: 0.6s ease;
+}
+
+ul li a:hover{
+background-color:#fff;
+color: #000;
+}
+
+.logo img{
+float: left;
+width: 180px;
+height: auto
+}
+
+ul li.active a{
+background-color:#fff;
+color: #000;
+}
+
+.main{
+max-width: 1200px;
+margin: auto;
+}
+
+.title{
+position: absolute;
+top: 20%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+
+.title h1{
+color: #fff;
+font-size: 20px;
+}
+
+.title1{
+position: absolute;
+top: 16%;
+right: 83%;
+transform: translate(-50%,-50%);
+}
+
+.title1 h1{
+color: #fff;
+font-size: 14px;
+color: #7AD7F0;
+}
+
+.title2{
+position: absolute;
+top: 38%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+
+.title2 h1{
+color: #fff;
+font-size: 20px;
+}
+
+.title3{
+position: absolute;
+top: 65%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+
+.title3 h1{
+color: #fff;
+font-size: 25px;
+}
+
+
+
+.title4{
+position: absolute;
+top: 89%;
+left: 52%;
+transform: translate(-50%,-50%);
+color:  #fff;
+font-size: 15px;
+}
+
+.button{
+position: absolute;
+top: 56%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.btn{
+border: 1px solid #fff;
+padding: 5px 5px;
+color: #;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+.button1{
+position: absolute;
+top: 78%;
+left: 43%;
+transform: translate(-50%,-50%);
+}
+
+.btn1{
+border: 1px solid #fff;
+padding: 10px 40px;
+color: #;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+.button2{
+position: absolute;
+top: 78%;
+left: 57%;
+transform: translate(-50%,-50%);
+}
+
+.btn2{
+border: 1px solid #fff;
+padding: 10px 40px;
+color: #;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+
+.text{
+position: absolute;
+top: 29%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.txt{
+border: 1px solid #fff;
+padding: 5px 2px;
+color: #000;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+.text1{
+position: absolute;
+top: 47%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.txt1{
+border: 1px solid #fff;
+padding: 5px 2px;
+color: #000;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+.btn:hover{
+background-color:#fff;
+color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
